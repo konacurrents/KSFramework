@@ -1,6 +1,7 @@
 use_frameworks!
+platform :ios, '14.0'
+
 target 'KSFramework_Tests' do
   pod 'KSFramework', :path => '../'
-  
   
 end

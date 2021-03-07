@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KSFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KSFramework.'
+  s.summary          = 'KSFramework are the base types for KSFramework Users'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  KSFramework are the base types for KSFramework Users. 
+  DESC
 
   s.homepage         = 'https://github.com/konacurrents/KSFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,6 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'KSFramework/Classes/**/*'
   
+  # THis doesn't pass "pod lint'
+  # s.resources    = 'KSBarklets/Assets/**/*.{storyboard,xcassets,plist}'
+
   # s.resource_bundles = {
   #   'KSFramework' => ['KSFramework/Assets/*.png']
   # }
