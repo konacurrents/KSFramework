@@ -1,7 +1,15 @@
-use_frameworks!
+#use_frameworks!
 platform :ios, '14.0'
 
-target 'KSFramework_Tests' do
+#https://stackoverflow.com/questions/58928768/xcode-new-build-system-cocoapods-copy-pods-resources-has-assets-car-in-output
+# Workaround duplicate Assets.car issue https://github.com/CocoaPods/CocoaPods/issues/8122
+# This impacts the new Xcode build system
+install! 'cocoapods', :disable_input_output_paths => true
+
+
+
+target 'KSFramework-Examples' do
+inherit! :search_paths
   pod 'KSFramework', :path => '../'
   
 end
