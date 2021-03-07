@@ -1,0 +1,22 @@
+{
+  "name": "KSFramework",
+  "version": "0.1.0",
+  "summary": "KSFramework are the base types for KSFramework Users",
+  "description": "KSFramework are the base types for KSFramework Users.",
+  "homepage": "https://github.com/konacurrents/KSFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "konacurrents": "scott@konacurrents.com"
+  },
+  "source": {
+    "git": "https://github.com/konacurrents/KSFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KSFramework/Classes/**/*"
+}

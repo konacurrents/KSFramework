@@ -1,0 +1,6 @@
+framework module Pods_KSFramework_Examples {
+  umbrella header "Pods-KSFramework-Examples-umbrella.h"
+
+  export *
+  module * { export * }
+}

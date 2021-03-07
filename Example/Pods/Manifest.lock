@@ -1,0 +1,16 @@
+PODS:
+  - KSFramework (0.1.0)
+
+DEPENDENCIES:
+  - KSFramework (from `../`)
+
+EXTERNAL SOURCES:
+  KSFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSFramework: 7864ed3d912ada6958d94963eccfe96e9ad7d73f
+
+PODFILE CHECKSUM: 979bd6271f9d9c4d61f7e61dd1b1fd50d75bd518
+
+COCOAPODS: 1.10.1
